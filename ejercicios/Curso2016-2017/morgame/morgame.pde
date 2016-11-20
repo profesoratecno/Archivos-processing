@@ -10,7 +10,7 @@ int x = -200, y, vy = 0; // Posición 'y, 'x' y la velocidad horizontal 'vy'
 int wx[] = new int[2], wy[] = new int[2];
 
 void setup() {
-  size(590, 750); // Tamaño de la ventana: ancho x alto (px)
+  size(600, 750); // Tamaño de la ventana: ancho x alto (px)
   fill(0);
   textSize(40);  // ... Tamaño de la letra, claro
   backImg =loadImage("backImg.png");
